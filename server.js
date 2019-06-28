@@ -11,6 +11,11 @@ require("./routing/apiRoutes")(app);
 
 
 
+
+//write code to compare friend array with inputted array
+
+
+
 app.listen(PORT, () => {
     console.log("App listening on PORT " + PORT);
 });
