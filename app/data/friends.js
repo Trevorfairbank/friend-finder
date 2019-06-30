@@ -36,16 +36,16 @@ const friends = [
         "name": "Jordan",
         "photo": "https://media.licdn.com/dms/image/C4E03AQGNyd0H9XxDKg/profile-displayphoto-shrink_800_800/0?e=1567036800&v=beta&t=8sBXtFDuxQzmX2QnO_DhX2Q77EAe3qutnu5B0nan3-4",
         "scores": [
-            2,
-            4,
-            5,
-            3,
-            5,
             1,
-            5,
-            2,
             1,
-            4
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            1,
+            2
         ]
     },
     {
