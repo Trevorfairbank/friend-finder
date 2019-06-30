@@ -10,8 +10,9 @@ module.exports = (app) => {
         res.sendFile(path.join(__dirname, "../public/survey.html"));
     });
 
-    app.get("*", (req, res) => {
-        res.sendFile(path.join(__dirname, "../public/home.html"));
-    });
+//When I run this my /api/friends doesn't work.
+    // app.get("*", (req, res) => {
+    //     res.sendFile(path.join(__dirname, "../public/home.html"));
+    // });
 
 };
