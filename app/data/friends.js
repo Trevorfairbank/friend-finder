@@ -48,5 +48,37 @@ const friends = [
             4
         ]
     },
+    {
+        "name": "Lauren",
+        "photo": "https://media.licdn.com/dms/image/C5603AQE9dWhEYb7FKQ/profile-displayphoto-shrink_800_800/0?e=1567036800&v=beta&t=O83qHmfzbd35GPqjxjVW8dZR3XEtTS0FkAi-XYkAWWM",
+        "scores": [
+            2,
+            5,
+            4,
+            1,
+            2,
+            1,
+            1,
+            4,
+            4,
+            1
+        ]
+    },
+    {
+        "name": "Christian",
+        "photo": "https://media.licdn.com/dms/image/C5603AQGaEPNEpIJk9w/profile-displayphoto-shrink_800_800/0?e=1567641600&v=beta&t=CSEpAIigB2aitbSEoOrcRVPKq4htW7AWMuno8A8EYmM",
+        "scores": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4
+        ]
+    }
 ]
 module.exports = friends;
