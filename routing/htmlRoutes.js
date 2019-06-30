@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = (app) => {
 
-    app.get("/home", (req, res) => {
+    app.get("/", (req, res) => {
         res.sendFile(path.join(__dirname, "../public/home.html"));
     });
 
@@ -10,7 +10,7 @@ module.exports = (app) => {
         res.sendFile(path.join(__dirname, "../public/survey.html"));
     });
 
-    app.get("/home/*", (req, res) => {
+    app.get("*", (req, res) => {
         res.sendFile(path.join(__dirname, "../public/home.html"));
     });
 
